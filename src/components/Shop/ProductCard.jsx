@@ -1,26 +1,41 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
 
-const ProductCard = ({product}) => {
+const ProductCard = ({ product }) => {
   return (
     <>
-     <div className="border border-gray-200  rounded-lg p-4 flex flex-col items-center text-center shadow-sm hover:shadow-lg transition-shadow duration-300">
-      <img src={product.image} alt={product.name} className="w-full h-48 object-contain mb-4" />
+      <div className="group relative border border-gray-200 rounded-lg p-4 flex flex-col text-left shadow-sm hover:shadow-xl hover:scale-105 transition-all duration-300 ease-in-out">
+        <h3 className="font-bold text-md mb-2 text-gray-800 ">
+          {product.name}
+        </h3>
 
-      <div className="flex-grow">
-        <p className="text-xs text-gray-500 mb-1">{product.category}</p>
-        <h3 className="font-bold text-md mb-2">{product.name}</h3>
+        <div className="relative w-full flex-grow">
+          <img
+            src={product.image}
+            alt={product.name}
+            className="w-full h-48 object-contain mb-4"
+          />
+        </div>
+
+        <div className="mt-auto">
+          <div className="flex justify-between items-center mb-3">
+            <p className="text-xs text-gray-500">{product.category}</p>
+
+            <p className="text-lg font-semibold text-gray-900">
+              ${product.price.toFixed(2)}
+            </p>
+          </div>
+
+          <Link
+            to={`/product/${product.id}`}
+             className="block w-full bg-blue-600 text-white py-2 rounded-md text-center hover:bg-green-500 transition-colors duration-300"
+          >
+            View Details
+          </Link>
+        </div>
       </div>
-
-      <p className="text-lg font-semibold text-gray-800 my-2">${product.price.toFixed(2)}</p>
-
-      <button className="w-full bg-blue-600 text-white py-2 rounded-md hover:bg-blue-400 transition-colors">
-        View Details
-      </button>
-    </div>
-
-
     </>
-  )
-}
+  );
+};
 
-export default ProductCard
+export default ProductCard;

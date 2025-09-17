@@ -11,7 +11,7 @@ const CTASection = () => {
           Join the thousands of athletes who trust Maxigen to fuel their journey. Explore our range of premium supplements today.
         </p>
         <a 
-          href="/products" 
+          href="/shop" 
           className="bg-blue-600 text-white font-bold py-3 px-8 rounded-lg text-lg hover:bg-blue-700 transition-colors duration-300"
         >
           Explore Our Products
