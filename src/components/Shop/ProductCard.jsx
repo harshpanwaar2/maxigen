@@ -4,8 +4,12 @@ import { Link } from "react-router-dom";
 const ProductCard = ({ product }) => {
   return (
     <>
-      <div className="group relative border border-gray-200 rounded-lg p-4 flex flex-col text-left shadow-sm hover:shadow-xl hover:scale-105 transition-all duration-300 ease-in-out">
-        <h3 className="font-bold text-md mb-2 text-gray-800 ">
+      <div
+        className="group relative border border-gray-200 rounded-lg p-4 flex flex-col text-left shadow-sm  hover:shadow-2xl hover:shadow-blue-600/50 
+        hover:-translate-y-2 hover:scale-105 
+        transition-all duration-300 ease-out"
+      >
+        <h3 className="font-bold text-md mb-2 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent ">
           {product.name}
         </h3>
 
@@ -28,7 +32,7 @@ const ProductCard = ({ product }) => {
 
           <Link
             to={`/product/${product.id}`}
-             className="block w-full bg-blue-600 text-white py-2 rounded-md text-center hover:bg-green-500 transition-colors duration-300"
+            className="block w-full bg-blue-600 text-white py-2 rounded-md text-center hover:bg-green-500 transition-colors duration-300"
           >
             View Details
           </Link>

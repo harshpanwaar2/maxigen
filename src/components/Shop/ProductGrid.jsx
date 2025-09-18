@@ -1,14 +1,6 @@
 import React from "react";
 import ProductCard from "./ProductCard";
-// import ultimaImg from "../../assets/Product/ultima.jpg";
-// import testaImg from "../../assets/Product/testa.jpg";
-// import ripogenImg from "../../assets/Product/ripogen.jpg";
-// import omegaImg from "../../assets/Product/omega.jpg";
-// import nitrogenImg from "../../assets/Product/nitrogen.jpg";
-// import nitrixImg from "../../assets/Product/nitrix.jpg";
-// import isogenImg from "../../assets/Product/isogen.jpg"; // Corrected filename from isogen27 to isogen
-// import creMonoImg from "../../assets/Product/cre-mono.jpg"; // Corrected filename from cremono to cre-mono
-// import creMonoBlendImg from "../../assets/Product/cre-mono-blend.jpg";
+
 
 
 

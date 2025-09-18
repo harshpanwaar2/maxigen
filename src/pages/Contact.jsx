@@ -1,4 +1,9 @@
 import React, { useState } from 'react';
+import Breadcrumbs from "@mui/material/Breadcrumbs";
+import Typography from "@mui/material/Typography";
+import Link from "@mui/material/Link";
+
+
 
 
 const Icon = ({ name, className }) => {
@@ -165,7 +170,16 @@ export default function App() {
 
                 <div className="bg-gray-200 py-16  h-100 flex items-center justify-center flex-col  rounded-xl text-center">
                     <h1 className="text-5xl md:text-6xl font-extrabold text-gray-900 tracking-tighter">CONTACT</h1>
-                    <p className="mt-2 text-gray-600">Home Page / Contact</p>
+                   <Breadcrumbs aria-label="breadcrumb" className="flex justify-center">
+      <Link
+        underline="hover"
+        color="inherit"
+        href="/"
+      >
+        Home Page
+      </Link>
+      <Typography sx={{ color: "text.primary" }}>Shop</Typography>
+    </Breadcrumbs>
                 </div>
 
 
