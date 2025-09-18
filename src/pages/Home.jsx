@@ -5,6 +5,7 @@ import PopularProducts from '../components/productCard'
 import ShopByGoal from '../components/Home/ShopByGoal'
 import BestSellers from '../components/Home/BestSeller'
 import Certifications from '../components/Home/Certifacate'
+import WhyChooseUs from '../components/Home/WhyChooseUs'
 
 const Home = () => {
   return (
@@ -12,9 +13,11 @@ const Home = () => {
       <HeroCarousel/>
      <ShopByGoal/>
      <BestSellers/>
+      <WhyChooseUs /> 
      <Certifications />
         
     </div>
+
   )
 }
 
