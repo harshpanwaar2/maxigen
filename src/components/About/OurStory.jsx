@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const OurStory = () => {
   return (
@@ -22,10 +23,15 @@ const OurStory = () => {
             brand—it's a testament to what's possible when science and
             dedication collide.
           </p>
+           <Link to="/our-story">
+            <button className="px-8 py-3 bg-blue-400 text-white font-semibold rounded-lg shadow-md hover:bg-green-700 transition-colors duration-300 mt-5">
+              Read Our Story
+            </button>
+          </Link>
         </div>
         <div className="order-1 md:order-2">
           <img
-            src="https://images.unsplash.com/photo-1549476464-373922115195?q=80&w=1887&auto=format&fit=crop"
+            src=""
             alt="Maxigen Lab"
             className="rounded-lg shadow-2xl object-cover w-full h-full"
           />

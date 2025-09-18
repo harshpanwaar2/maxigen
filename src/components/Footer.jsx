@@ -1,8 +1,7 @@
 import React from 'react';
 import { Phone, Mail, MessageSquare, Facebook, Instagram, Twitter, Youtube } from 'lucide-react';
 
-// --- Dynamic Data for the Footer ---
-// You can easily change all footer content here
+
 const footerData = {
   brandName: "Maxigen",
   contact: {
@@ -70,7 +69,7 @@ const Footer = () => {
   return (
     <footer className="bg-[#1a1a1a] text-gray-300 font-sans mt-10">
     
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+      <div className="mx-auto  px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center py-8 border-b border-gray-700 space-y-6 md:space-y-0">
           <div className="flex items-center">
              <h2 className="text-3xl font-bold text-white uppercase">{footerData.brandName}</h2>

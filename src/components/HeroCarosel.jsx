@@ -3,21 +3,21 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const carouselData = [
   {
-    image: 'src/assets/hero/hero1..jpeg', 
+    image: 'src/assets/hero/hero1.png', 
     topLabel: 'Advanced Whey Blend',
     title: 'NITROGEN',
     subtitle: 'High-quality whey protein for maximum muscle growth and rapid recovery. Achieve your peak.',
     buttonText: 'Product Details',
   },
   {
-    image: 'src/assets/hero/hero2.jpeg',
+    image: 'src/assets/hero/hero2.png',
     topLabel: 'Get Your Natural Protein',
     title: 'FUEL YOUR STRENGTH',
     subtitle: 'Maxigen fuels your strength, helping you maximize your gains and unleash your true potential.',
     buttonText: 'View Product',
   },
   {
-    image: 'src/assets/hero/hero3.jpeg', // 
+    image: 'src/assets/hero/hero3.png', // 
     topLabel: 'Ultimate Performance',
     title: 'IGNITE WITH INFERNO',
     subtitle: 'Our ultimate pre-workout formula for explosive energy and laser-sharp focus. Dominate every workout.',
@@ -71,7 +71,7 @@ const HeroCarousel = () => {
             <img 
               src={slide.image} 
               alt={slide.title}
-              className="w-full h-full object-cover" 
+              className=" h-full object-cover" 
             />
           </div>
         ))}
@@ -93,7 +93,7 @@ const HeroCarousel = () => {
             <p className="max-w-xl mx-auto text-base md:text-lg text-gray-200 mb-8 leading-relaxed">
               {subtitle}
             </p>
-            <button className="bg-white text-black font-bold py-3 px-10 rounded-md hover:bg-gray-200 transition-all duration-300 transform hover:scale-105 shadow-lg uppercase tracking-wider">
+            <button className=" text-white font-bold py-3 px-10 rounded-md bg-orange-600 hover:bg-orange-300 hover:text-black transition-all duration-300 transform hover:scale-105 shadow-lg uppercase tracking-wider">
               {buttonText}
             </button>
         </div>

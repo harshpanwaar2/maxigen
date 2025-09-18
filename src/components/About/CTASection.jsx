@@ -1,8 +1,15 @@
 import React from 'react';
+import ctaImg from "../../assets/about/CTA.jpg"
+
 
 const CTASection = () => {
   return (
-    <section className="py-20 bg-gray-900">
+    <section className="py-20 " style={{
+    backgroundImage: `url(${ctaImg})`, 
+    backgroundRepeat: "no-repeat",
+    backgroundPosition: "center center",
+    backgroundSize: "cover"
+  }}>
       <div className="max-w-4xl mx-auto px-4 text-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-4">
           Ready to Unlock Your Potential?

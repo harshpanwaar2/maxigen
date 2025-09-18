@@ -1,33 +1,37 @@
 import React from 'react';
 import './ShopByGoal.css';
+import shopbygoalImg from '../../assets/hero/homeshopbygoal.jpg'
+import performanceImg from '../../assets/hero/performance.jpeg'
+import fatImg from '../../assets/hero/fatLoss.webp'
+import muscleImg from '../../assets/hero/muscleGain.webp'
 
 const goalsData = [
     {
         id: 1,
         title: 'Muscle Gain',
         tagline: 'Build, Recover, and Grow',
-        imageUrl: 'https://images.pexels.com/photos/1431282/pexels-photo-1431282.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        imageUrl: muscleImg,
         link: '/shop/muscle-gain'
     },
     {
         id: 2,
         title: 'Fat Loss & Ripped',
         tagline: 'Burn Fat and Define Muscle',
-        imageUrl: 'https://images.pexels.com/photos/416809/pexels-photo-416809.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        imageUrl: fatImg,
         link: '/shop/fat-loss'
     },
     {
         id: 3,
         title: 'Performance & Strength',
         tagline: 'Boost Power and Endurance',
-        imageUrl: 'https://images.pexels.com/photos/2261477/pexels-photo-2261477.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        imageUrl: performanceImg,
         link: '/shop/performance'
     },
     {
         id: 4,
         title: 'Health & Wellness',
         tagline: 'Support Your Body Daily',
-        imageUrl: 'https://images.pexels.com/photos/3962285/pexels-photo-3962285.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        imageUrl: shopbygoalImg,
         link: '/shop/wellness'
     }
 ];

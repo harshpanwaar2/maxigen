@@ -4,6 +4,7 @@ import HeroCard from '../components/Herocard/HeroCard'
 import PopularProducts from '../components/productCard'
 import ShopByGoal from '../components/Home/ShopByGoal'
 import BestSellers from '../components/Home/BestSeller'
+import Certifications from '../components/Home/Certifacate'
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <HeroCarousel/>
      <ShopByGoal/>
      <BestSellers/>
+     <Certifications />
         
     </div>
   )
