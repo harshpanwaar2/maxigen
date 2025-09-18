@@ -10,7 +10,7 @@ import { BsBuilding, BsClipboardCheck } from "react-icons/bs";
 
 // --- LOCAL IMAGES ---
 // IMPORTANT: Update these paths to match your saved image files in src/assets/images/
-import heroImage from '../assets/features/feature-hero.jpg';
+import heroImage from '../assets/features/featureHero.png';
 import sourcingImage from '../assets/features/journey-sourcing.jpg';
 import labImage from '../assets/features/journey-lab.jpg';
 import manufacturingImage from '../assets/features/journey-manufacturing.jpg';

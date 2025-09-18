@@ -32,7 +32,7 @@ const ProductCard = ({ product }) => {
 
           <Link
             to={`/product/${product.id}`}
-            className="block w-full bg-blue-600 text-white py-2 rounded-md text-center hover:bg-green-500 transition-colors duration-300"
+            className="block w-full bg-blue-600 text-white py-2 rounded-md text-center hover:bg-orange-500 transition-colors duration-300"
           >
             View Details
           </Link>
